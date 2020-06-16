@@ -3,6 +3,7 @@ import { FiMail, FiLock,FiUser, FiArrowLeft} from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
+import getValidationErrors from '../../utils/getValidationErros';
 
 import { Container, Content, Background } from './styles'
 import logoImg from '../../assets/logo.svg';
@@ -16,6 +17,7 @@ const SignUp: React.FC = () => {
 
   const handleSubmit = useCallback( async (data:object) =>{
     try {
+
       const schema = Yup.object().shape({
         name: Yup.string().required('Nome Obrigatório'),
         email: Yup.string().required('E-mail Obrigatório').email('Digite um email válido'),
@@ -26,10 +28,11 @@ const SignUp: React.FC = () => {
         abortEarly:false,
       });
 
+    } catch (err) {
 
-    } catch (error) {
-      console.log(error);
-      // formRef.current?.set()
+      const errors = getValidationErrors(err);
+
+      formRef.current?.setErrors(errors);
     }
   },[]);
   return(
