@@ -2,9 +2,9 @@
 ## Rocketseat - Skylab
 ### 04 - Iniciando front-end web
 
-- ✅ Done
-- 📍 Doing
-- ❌ To Do
+-- ✅ Done
+-- 📍 Doing
+-- ❌ To Do
 
 ## Estrutura das páginas ✅
 * ✅ Configurando Estrutura
