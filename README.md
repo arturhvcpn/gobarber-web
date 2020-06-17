@@ -12,7 +12,7 @@
 * ✅ Usabilidade do Input
 * ✅ Validando Cadastro
 * ✅ Exibindo Erros no Input
-* ❌ Criando Tooltip de Erros
+* 📍 Criando Tooltip de Erros
 * ❌ Validação de Login
 
 
