@@ -1,10 +1,10 @@
 # Gobarber Web
 ## Rocketseat - Skylab
 ### 04 - Iniciando front-end web
-
-- ✅ Done
-- 📍 Doing
-- ❌ To Do
+- Status de Andamento do Projeto
+  - ✅ Done
+  - 📍 Doing
+  - ❌ To Do
 
 ## Estrutura das páginas ✅
 * ✅ Configurando Estrutura
