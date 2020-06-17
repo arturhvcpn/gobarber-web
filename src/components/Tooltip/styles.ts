@@ -9,8 +9,8 @@ export const Container = styled.div`
     padding: 8px;
     border-radius: 4px;
     font-size: 14px;
-    /* opacity: 0;
-    transition: opacity 0.4s; */
+    opacity: 0;
+    transition: opacity 0.4s;
 
     position:absolute;
     bottom: calc(100% + 12px);
