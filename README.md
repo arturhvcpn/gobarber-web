@@ -20,8 +20,8 @@
 * ✅ Validação de Login
 
 ## Autenticação📍
-* 📍 Habilitando CORS na API
-* ❌ API de Contexto
+* ✅ Habilitando CORS na API
+* 📍 API de Contexto
 * ❌ Login pelo Contexto
 * ❌ Mantendo usuário no storage
 * ❌ Criando hook useAuth
