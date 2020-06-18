@@ -21,9 +21,9 @@
 
 ## Autenticação📍
 * ✅ Habilitando CORS na API
-* 📍 API de Contexto
-* ❌ Login pelo Contexto
-* ❌ Mantendo usuário no storage
+* ✅ API de Contexto
+* ✅ Login pelo Contexto
+* 📍 Mantendo usuário no storage
 * ❌ Criando hook useAuth
 * ❌ Logout da aplicação
 
