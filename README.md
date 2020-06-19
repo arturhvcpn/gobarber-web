@@ -23,9 +23,9 @@
 * ✅ Habilitando CORS na API
 * ✅ API de Contexto
 * ✅ Login pelo Contexto
-* 📍 Mantendo usuário no storage
-* ❌ Criando hook useAuth
-* ❌ Logout da aplicação
+* ✅  Mantendo usuário no storage
+* ✅  Criando hook useAuth
+* 📍 Logout da aplicação
 
 ## Mensagens de toast ❌
 * ❌ Estrutura de Toasts
