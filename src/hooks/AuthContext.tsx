@@ -64,7 +64,6 @@ function useAuth():AuthContextData{
 
   if(!context){
     throw new Error('useAuth must be used within an Auth provider');
-
   }
   return context;
 }
