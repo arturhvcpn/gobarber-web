@@ -2,9 +2,9 @@
 ## Rocketseat - Skylab
 ### 04 - Iniciando front-end web
 - Status de Andamento do Projeto
-  - ✅   Done
-  - 📍   Doing
-  - ❌   To Do
+  - ✅ Done
+  - 📍 Doing
+  - ❌ To Do
 
 ## Estrutura das páginas ✅
 * ✅   Configurando Estrutura
@@ -28,8 +28,8 @@
 * ✅  Logout da aplicação
 
 ## Mensagens de toast 📍
-* 📍  Estrutura de Toasts
-* ❌  Criando hook de toast
+* ✅  Estrutura de Toasts
+* 📍  Criando hook de toast
 * ❌  Adicionando e removendo Toasts
 * ❌  Animando Toasts
 
