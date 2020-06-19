@@ -19,16 +19,16 @@
 * ✅ Criando Tooltip de Erros
 * ✅ Validação de Login
 
-## Autenticação📍
+## Autenticação✅
 * ✅ Habilitando CORS na API
 * ✅ API de Contexto
 * ✅ Login pelo Contexto
 * ✅  Mantendo usuário no storage
 * ✅  Criando hook useAuth
-* 📍 Logout da aplicação
+* ✅ Logout da aplicação
 
-## Mensagens de toast ❌
-* ❌ Estrutura de Toasts
+## Mensagens de toast 📍
+* 📍 Estrutura de Toasts
 * ❌ Criando hook de toast
 * ❌ Adicionando e removendo Toasts
 * ❌ Animando Toasts
