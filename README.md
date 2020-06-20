@@ -30,8 +30,8 @@
 ## Mensagens de toast 📍
 * ✅ Estrutura de Toasts
 * ✅ Criando hook de toast
-* 📍 Adicionando e removendo Toasts
-* ❌ Animando Toasts
+* ✅ Adicionando e removendo Toasts
+* 📍 Animando Toasts
 
 ## Rotas da Aplicação ❌
 * ❌ Configurando Rotas
