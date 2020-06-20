@@ -27,13 +27,13 @@
 * ✅Criando hook useAuth
 * ✅Logout da aplicação
 
-## Mensagens de toast 📍
+## Mensagens de toast ✅
 * ✅ Estrutura de Toasts
 * ✅ Criando hook de toast
 * ✅ Adicionando e removendo Toasts
-* 📍 Animando Toasts
+* ✅ Animando Toasts
 
-## Rotas da Aplicação ❌
-* ❌ Configurando Rotas
+## Rotas da Aplicação 📍
+* 📍 Configurando Rotas
 * ❌ Rotas autenticadas
 * ❌ Finalizando App
