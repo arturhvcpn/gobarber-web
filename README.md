@@ -1,6 +1,6 @@
 # Gobarber Web
 ## Rocketseat - Skylab
-### 04 - Iniciando front-end web
+### 04 - Iniciando front-end web ✅
 - Status de Andamento do Projeto
   - ✅ Done
   - 📍 Doing
@@ -33,7 +33,7 @@
 * ✅ Adicionando e removendo Toasts
 * ✅ Animando Toasts
 
-## Rotas da Aplicação 📍
+## Rotas da Aplicação ✅
 * ✅ Configurando Rotas
 * ✅ Rotas autenticadas
-* 📍 Finalizando App
+* ✅ Finalizando App
