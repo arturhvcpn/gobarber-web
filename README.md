@@ -34,6 +34,6 @@
 * ✅ Animando Toasts
 
 ## Rotas da Aplicação 📍
-* 📍 Configurando Rotas
-* ❌ Rotas autenticadas
-* ❌ Finalizando App
+* ✅ Configurando Rotas
+* ✅ Rotas autenticadas
+* 📍 Finalizando App
