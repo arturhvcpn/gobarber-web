@@ -1,11 +1,15 @@
 import React, { useCallback, useRef } from 'react';
 import { FiMail, FiLock,FiUser, FiArrowLeft} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
+
 import * as Yup from 'yup';
+
 import getValidationErrors from '../../utils/getValidationErros';
 
-import { Container, Content, Background } from './styles'
+import { Container, Content, AnimationContainer,  Background } from './styles'
 import logoImg from '../../assets/logo.svg';
 
 import Button from '../../components/Button';
@@ -38,29 +42,29 @@ const SignUp: React.FC = () => {
   return(
     <Container>
     <Background/>
-      < Content>
-      <img src={logoImg} alt="GoBarber"/>
+      <Content>
+        <AnimationContainer>
+        <img src={logoImg} alt="GoBarber"/>
 
-      <Form ref={formRef}onSubmit={handleSubmit}>
-        <h1>Faça seu Cadastro</h1>
+        <Form ref={formRef}onSubmit={handleSubmit}>
+          <h1>Faça seu Cadastro</h1>
 
-        <Input icon={FiUser} name= "name" placeholder="Name"/>
-        <Input icon={FiMail} name= "email" placeholder="E-mail"/>
+          <Input icon={FiUser} name= "name" placeholder="Name"/>
+          <Input icon={FiMail} name= "email" placeholder="E-mail"/>
 
-        <Input icon={FiLock} name= "password" type="password" placeholder="Senha"/>
+          <Input icon={FiLock} name= "password" type="password" placeholder="Senha"/>
 
-        <Button type="submit">Cadastrar</Button>
-      </Form>
+          <Button type="submit">Cadastrar</Button>
+        </Form>
 
-      <a href="login">
-        <FiArrowLeft/>
-        Voltar para Logon
-        </a>
-
+          <Link to="/">
+            <FiArrowLeft/>
+            Voltar para Logon
+          </Link>
+        </AnimationContainer>
       </Content>
   </Container>
   );
 }
-
 
 export default SignUp;
